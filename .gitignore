@@ -1,0 +1,15 @@
+# 排除大文件
+ffmpeg-8.0/
+python/
+*.exe
+*.dll
+*.pyd
+
+# 排除配置和临时文件
+config.json
+*.mp4
+*.avi
+*.mkv
+test_output.mp4
+__pycache__/
+*.pyc
